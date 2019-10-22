@@ -9,6 +9,10 @@
 #include <iostream>
 using namespace std;
 
+int average(int a, int b){
+    return (a+b)/2;
+}
+
 int main() {
     // insert code here...
    cout << "Hello, World!\n";
