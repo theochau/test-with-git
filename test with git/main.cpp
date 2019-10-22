@@ -11,6 +11,10 @@ using namespace std;
 
 int average(int a, int b){
     return (a+b)/2;
+void swap(int& a, int& b){
+    int temp = a;
+    a = b;
+    b = temp;
 }
 
 int main() {
