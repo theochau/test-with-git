@@ -11,6 +11,9 @@ using namespace std;
 
 int average(int a, int b){
     return (a+b)/2;
+}
+
+//takes two ints through pass by reference and swaps their values.
 void swap(int& a, int& b){
     int temp = a;
     a = b;
